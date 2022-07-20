@@ -1,0 +1,113 @@
+.team-card {
+  width: 328px;
+
+  background-color: #FFD9BE;
+
+
+  .team-card__line {
+    height: 2px;
+    width: 100%;
+    background-color: $buttonColorMain;
+    border-color: $buttonColorMain;
+  }
+
+  .team-card__header {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: $buttonColorAdditional;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    border-radius: 12px 12px 0px 0px;
+    padding: 16px;
+    color: $ColorText;
+
+
+  }
+
+  .team-card__footer {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: $buttonColorAdditional;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 12px 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+    color: $ColorText;
+
+  }
+
+
+  .team-card__about {
+    background-color: $buttonColorAdditional;
+    padding: 0px 24px 16px 24px;
+
+    .team-card__name {
+      font-family: 'Golos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      padding: 20px 24px 16px 0px;
+    }
+
+    .team-card__icons {
+      padding-right: 16px;
+    }
+
+    .team-card__description {
+      font-family: 'Golos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+
+      display: flex;
+      align-items: center;
+      margin: 24px 0px 24px 0px;
+      color: #666666;
+    }
+
+
+  }
+}
+
+.team-card-header {
+
+  margin: 32px 16px 32px 12px;
+
+  font-family: 'Golos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  color: $ColorText;
+
+}
+
+.team-card-return {
+  margin-top: 16px;
+  font-family: 'Golos';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+
+  /* identical to box height, or 18px */
+  display: flex;
+  align-items: flex-end;
+
+  color: $ColorText;
+}
