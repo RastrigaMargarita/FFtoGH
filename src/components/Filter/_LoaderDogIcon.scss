@@ -1,0 +1,28 @@
+.LoaderDogIcon
+{
+  animation: remoteDog 6s infinite;
+  position: absolute;
+}
+
+@keyframes remoteDog {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 93px;
+    top: 0;
+  }
+  50% {
+    left: 93px;
+    top: 96px;
+  }
+  75% {
+    left: 0;
+    top: 96px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}

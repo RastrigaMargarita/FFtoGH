@@ -1,0 +1,40 @@
+.StepChoiceBlock {
+  display: grid;
+  grid-template-columns: 40px auto 40px auto 40px;
+  align-items: center;
+
+  &__line {
+    height: 3px;
+    width: 100%;
+    background-color: $buttonColorMain;
+  }
+}
+
+.StepChoiceBlockCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C4C4C4;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+  &__text {
+    font-family: 'Golos', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $buttonColorAdditional;
+  }
+}
+
+.StepChoiceBlockCircle-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $ButtonChoiceBlock;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}

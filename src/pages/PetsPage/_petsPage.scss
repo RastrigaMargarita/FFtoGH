@@ -1,0 +1,21 @@
+.PetsPage {
+  .PetsPage__likeCount {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .PetsPage__likeCount > svg {
+    color: #9f85eb;
+    font-size: 60px;
+  }
+
+  .PetsPage__likeCount span {
+    position: fixed;
+    font-size: 25px;
+    bottom: 69px;
+    right: 73px;
+  }
+
+  
+}

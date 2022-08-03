@@ -1,0 +1,10 @@
+export { default as Header } from "./Header/Header";
+export { default as PetsCard } from "./PetsCard/PetsCard";
+export { default as Loader } from "./Filter/Loader";
+export { default as ComponentWithHeader } from "./ComponentWithHeader";
+export { default as Popup } from "./ModalWindow/ModalWindow";
+export { default as PetPhotos } from "./PetsPhoto/PetPhotos";
+export { default as Back } from "./BackLink/Back";
+export { default as BackToList } from "./BackLink/BackToList";
+export { default as LikeCount } from "./LikeCount/LikeCount";
+export { default as TeamCard } from "./TeamCard/TeamCard";

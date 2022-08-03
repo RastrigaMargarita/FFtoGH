@@ -1,0 +1,42 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(128, 207, 206, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+    .content:before,
+    .content:after {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 13vh;
+        right: 10%;
+        width: 23px;
+        border-radius: 5px;
+        height: 3px;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+    }
+
+    .content:before {
+        transform: rotate(135deg);
+    }
+
+    .card__photo--img {
+        width: 100%;
+        height: 65vh;
+        cursor: auto;
+    }
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+}

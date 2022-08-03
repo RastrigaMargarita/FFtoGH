@@ -1,0 +1,54 @@
+.NotFooundPage {
+    height: 87vh;
+    width: 360px;
+    margin: 0 auto;
+
+    .NotFooundPage__404 {
+        height: 170px;
+        text-align: center;
+
+        .NotFooundPage__404--icon {
+            padding: 60px 0 0 0;
+        }
+
+        .NotFooundPage__404--text {
+            font-size: 18px;
+        }
+    }
+
+    .NotFooundPage__icon {
+        position: relative;
+        height: 34vh;
+
+        svg {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .NotFooundPage__buttons {
+        top: 517px;
+
+        .NotFooundPage__buttons--main {
+            background-color: $buttonColorMain;
+            border-radius: 30px;
+            padding: 11px 16px;
+            text-align: center;
+            margin: 0 16px;
+        }
+
+        .NotFooundPage__buttons--likes {
+            border: 2px solid $buttonColorMain;
+            border-radius: 30px;
+            padding: 11px 16px;
+            text-align: center;
+            margin-top: 16px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    }
+}

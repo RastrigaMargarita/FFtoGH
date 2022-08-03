@@ -1,0 +1,20 @@
+.inpLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #F48070;
+}
+
+.inp {
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #362A15;
+  border: none;
+  border-bottom: 2px solid #F48070;
+  padding: 8px 0;
+  margin-top: 8px;
+}

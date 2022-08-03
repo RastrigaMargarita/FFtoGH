@@ -1,0 +1,23 @@
+.GenderFilterBLock {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  row-gap: 30px;
+
+  &__text {
+    font-family: 'Golos', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding: 10% 0;
+  }
+}
+
+.GenderFilterBLockBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}

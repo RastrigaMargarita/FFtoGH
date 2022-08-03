@@ -1,0 +1,51 @@
+.ButtonChoiceGenderBlock {
+  outline: none;
+  border: 2px solid $ButtonChoiceBlock;
+  border-radius: 30px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 37px;
+  padding-right: 37px;
+
+  &__text {
+    font-family: 'Golos', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    &-active {
+      color: $buttonColorAdditional;
+    }
+
+    &-nonactive {
+      color: black;
+    }
+  }
+}
+
+.ButtonChoiceGenderBlock-active {
+  background-color: $ButtonChoiceBlock;
+}
+
+.ButtonChoiceGenderBlock-nonactive {
+  background-color: $buttonColorAdditional;
+}
+
+.ButtonChoiceGenderBlock:hover {
+  background-color: $ButtonChoiceBlock;
+
+  p {
+    color: $buttonColorAdditional;
+  }
+
+  path {
+    stroke: $buttonColorAdditional;
+  }
+}

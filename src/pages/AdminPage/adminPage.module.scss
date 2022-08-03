@@ -1,0 +1,125 @@
+.container {
+  max-width: 328px;
+  margin: 0 auto;
+}
+
+.logo {
+  align-self: center;
+
+  img {
+    width: 100%;
+  }
+}
+
+.adminPage {
+  padding-top: 32px;
+  padding-bottom: 77px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+  }
+
+  &__main {
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+
+  &__btn_big {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    background: #80CFCE;
+    border-radius: 30px;
+    border: none;
+    padding: 14px 0;
+    width: 100%;
+    cursor: pointer;
+
+
+    &:not(:last-of-type) {
+      margin-bottom: 16px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__btn_small {
+
+    width: 100%;
+
+    button {
+      width: 100%;
+      padding: 14px 0;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #362A15;
+      background: #F48070;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+    }
+
+    &:not(:last-of-type) {
+      margin-right: 16px;
+    }
+  }
+
+  & > div:last-of-type {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+.main {
+  border: 2px solid #80CFCE;
+  border-radius: 30px;
+  background: #FFFFFF;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #362A15;
+    margin-top: 24px;
+    margin-bottom: 52px;
+  }
+
+  &__link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #362A15;
+  }
+}
+
+.button__link {
+  display: block;
+  cursor: default;
+}

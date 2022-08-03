@@ -1,0 +1,11 @@
+export { default as DetailPage } from "./DetailPage/DetailPage";
+export { default as PetsPage } from "./PetsPage/PetsPage";
+export { default as LikePetsPage } from "./LikePage/LikePetsPage";
+export { default as GenderFilter } from "./GenderFilter/GenderFilter";
+export { default as AnimalType } from "./AnimalType/AnimalType";
+export { default as BeginPage } from "./BeginPage/BeginPage";
+export { default as LoadPage } from "./LoadPage";
+export { default as Team } from "./Team";
+export { default as NotFoundPage } from "./NotFoundPage/NotFoundPage";
+export { default as NotFoundPet } from "./NotFoundPet/NotFoundPet";
+export { default as SheltersPage } from "./SheltersPage/SheltersPage";

@@ -1,0 +1,123 @@
+.container {
+  max-width: 328px;
+  margin: 0 auto;
+}
+
+.editPage {
+  padding-top: 24px;
+  padding-bottom: 47px;
+  display: flex;
+  flex-direction: column;
+}
+.editPage__link {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #000000;
+}
+.editPage__link svg {
+  margin: 0 8px 0 0;
+}
+.editPage__title {
+  padding: 20px 0 32px 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.editPage__form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.editPage__bg {
+  padding: 28px 32px 53px 32px;
+  border: 2px solid #80CFCE;
+  border-radius: 30px;
+  background-color: #FFF;
+}
+.editPage__label {
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #F48070;
+}
+.editPage__input {
+  padding: 5.5px 0 6px 0;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #362A15;
+  border: none;
+  border-bottom: 2px solid #F48070;
+}
+.editPage__input:not(:last-child) {
+  margin: 0 0 32px 0;
+}
+.editPage__download p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #F48070;
+}
+.editPage__download div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.editPage__download__down {
+  padding: 8px 0 0 0;
+}
+.editPage__download__down label svg {
+  margin: 0 10px 0 0;
+}
+.editPage__download label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 31px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #362A15;
+  background: #F48070;
+  cursor: pointer;
+}
+.editPage__download input {
+  display: none;
+}
+.editPage__download__save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0 0 0;
+  width: 184px;
+  height: 48px;
+  background: #F48070;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #362A15;
+}
+
+/*# sourceMappingURL=editPage.module.css.map */

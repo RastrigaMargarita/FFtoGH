@@ -1,0 +1,80 @@
+.wrap {
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wrap__bigBtn {
+  width: inherit;
+}
+
+.wrap__middleBtn {
+  width: 184px;
+}
+
+.wrap__smallBtn {
+  width: 130px;
+}
+
+.button {
+  width: 100%;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #362a15;
+  border-radius: 30px;
+  border: 2px solid #f48070;
+  box-sizing: border-box;
+
+  &__big {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+
+  &__middle {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+
+  &__small {
+    padding: 6px 0;
+    font-size: 10px;
+  }
+
+  &__red {
+    background: #f48070;
+
+    &:hover {
+      background: #ffffff;
+      cursor: pointer;
+    }
+  }
+
+  &__white {
+    background: #ffffff;
+
+    &:hover {
+      background: #f48070;
+      cursor: pointer;
+    }
+  }
+
+  &_clip {
+    background: #ffffff url("./clip.svg") 10px 8px no-repeat;
+
+    &:hover {
+      background: #f48070 url("./clip.svg") 10px 8px no-repeat;
+      cursor: pointer;
+    }
+  }
+
+  &_basket {
+    background: #ffffff url("./basket.svg") 10px 8px no-repeat;
+
+    &:hover {
+      background: #f48070 url("./basket.svg") 10px 8px no-repeat;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.inpLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #F48070;
+}
+
+.inp {
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #362A15;
+  border: 2px solid #F48070;
+  border-radius: 20px;
+  padding: 8px 0 8px 15px;
+  margin-top: 8px;
+  background: #FFF url('./arrow_down.svg') 229px 14px no-repeat;
+  appearance: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

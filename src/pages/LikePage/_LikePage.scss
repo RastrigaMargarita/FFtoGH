@@ -1,0 +1,44 @@
+.LikePage__likeCount {
+  position: relative;
+  top: 42px;
+  margin: 0 auto;
+  padding-left: 20px;
+  height: 100px;
+  width: 350px;
+
+  span {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  .PetsPage__likeCount {
+    position: relative;
+    left: 240px;
+    //width: 84px;
+    bottom: 45px;
+  }
+}
+
+.LikePage__trash {
+  position: relative;
+  height: 48px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: $buttonColorMain;
+  border-radius: 30px;
+  cursor: pointer;
+
+  span {
+    position: relative;
+    top: -2px;
+    left: 78px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  svg {
+    position: relative;
+    left: 100px;
+    top: 7px;
+  }
+}

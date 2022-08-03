@@ -1,0 +1,52 @@
+.addImage {
+  position: relative;
+  transition: 0.5s;
+  width: 74px;
+  height: 74px;
+  border-radius: 10px;
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 74px;
+    background-color: rgba(128, 207, 206, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+
+  &__btn {
+    position: relative;
+    background: rgba(58, 56, 56, 0.43);
+    outline: none;
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+
+  &_hover {
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    bottom: 8px;
+    left: -16px;
+  }
+}
+
+.addImage:hover .addImage__overlay {
+  opacity: 1;
+}

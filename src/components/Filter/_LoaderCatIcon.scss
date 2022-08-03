@@ -1,0 +1,28 @@
+.LoaderCatIcon
+{
+  animation: remoteCat 6s infinite;
+  position: absolute;
+}
+
+@keyframes remoteCat {
+  0% {
+    left: 93px;
+    top: 96px;
+  }
+  25% {
+    left: 0;
+    top: 96px;
+  }
+  50% {
+    left: 0;
+    top: 0;
+  }
+  75% {
+    left: 93px;
+    top: 0;
+  }
+  100% {
+    left: 93px;
+    top: 96px;
+  }
+}

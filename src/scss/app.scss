@@ -1,0 +1,19 @@
+$buttonColorMain: #F48070;
+$buttonColorAdditional: white;
+$ButtonChoiceBlock: #80CFCE;
+$ColorText: #000;
+@import "./fonts/fonts";
+@import "normalize";
+@import "./_mixins.scss";
+
+@import "allComponents";
+@import "allPage";
+
+body {
+  padding-top: 4rem;
+}
+
+html {
+  background: url(../images/backgroundSite.svg);
+  background-color: #ffd9be;
+}

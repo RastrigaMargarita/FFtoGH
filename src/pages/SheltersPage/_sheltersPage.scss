@@ -1,0 +1,51 @@
+.SheltersPage {
+  .SheltersPage__title {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 328px;
+    color: re;
+  }
+
+  .SheltersPage__title span {
+    font-size: 24px;
+    bottom: 69px;
+    right: 73px;
+  }
+
+  .SheltersPage__title > svg {
+    color: #9f85eb;
+    font-size: 60px;
+  }
+
+  .SheltersPage__searchBox {
+    width: 328px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    margin-left: -164px;
+    background-color: #fff;
+    border: 2px solid #f48070;
+    height: 48px;
+    border-radius: 30px;
+    padding: 11px 16px;
+
+    .SheltersPage__searchBox-searchBtn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #f48070;
+      width: 40px;
+      height: 40px;
+    }
+
+    .SheltersPage__searchBox-searchTxt {
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 14px;
+    }
+  }
+}

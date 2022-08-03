@@ -1,0 +1,164 @@
+.DetailPets {
+  background-color: $buttonColorAdditional;
+  padding: 0 !important;
+
+
+  .Back {
+    margin: 0 0 24px 24px;
+    padding-top: 24px;
+  }
+
+  .card__about--item {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+
+    .card__about--icon {
+      display: inline;
+    }
+
+    .card__about--iconName {
+      position: relative;
+      top: -10px;
+      margin-left: 13px;
+      font-size: 18px;
+    }
+  }
+
+  .card__line {
+    height: 3px;
+    margin: 2rem auto;
+    background-color: $buttonColorMain;
+    border-radius: 10px;
+  }
+
+  .card__button {
+    background: $buttonColorMain;
+    border: 1px solid $buttonColorMain;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    margin-top: 28px;
+    padding: 1rem 0;
+    transition: 0.3s;
+
+    &:hover {
+      background: $buttonColorAdditional;
+      transition: 0.4s;
+    }
+
+    &:active {
+      transform: translatey(3px);
+    }
+  }
+
+  .card__about__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card__about__col--first {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .card__about__col--second {
+    display: inline-block;
+
+    a {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: center;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+
+    img {
+      max-width: 70%;
+    }
+  }
+
+  .card__about__breeds--discription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+
+    .card__about__breeds--discriptiontext {
+      display: flex;
+      margin-left: 12px;
+      user-select: none;
+    }
+
+    .card__about__breeds--discriptionquestion svg {
+      cursor: pointer;
+    }
+  }
+
+  .card__about__breeds--percents_breeds {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+
+    .card__about__breeds--percent_breed {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 135px;
+      min-width: 90px;
+      font-size: 0.85rem;
+
+      .percents {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 29px;
+
+        >span {
+          color: $ButtonChoiceBlock;
+        }
+      }
+
+      .breeds {
+        font-weight: 600;
+        text-align: center;
+        margin-top: 8px;
+
+
+        >span {
+          color: #666666;
+        }
+      }
+    }
+  }
+
+  .card__about--share {
+    display: grid;
+    grid-template-columns: 1fr 27px;
+    padding-top: 38px;
+  }
+
+  .card__about--shareimage {
+    cursor: pointer;
+
+  }
+}
+
+.loader-container {
+  max-width: 378px;
+  padding: 0 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+}

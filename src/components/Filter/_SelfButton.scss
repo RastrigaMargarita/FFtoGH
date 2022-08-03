@@ -1,0 +1,27 @@
+.SelfButton {
+  background-color: $buttonColorMain;
+  border-radius: 30px;
+  height: 50px;
+  outline: none;
+  border: none;
+  font-family: 'Golos', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #362A15;
+}
+
+.SelfButton-nonactive {
+  background-color: $buttonColorAdditional;
+  border-radius: 30px;
+  height: 50px;
+  outline: none;
+  border: 2px solid $buttonColorMain;
+  font-family: 'Golos', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #362A15;
+}

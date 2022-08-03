@@ -1,0 +1,36 @@
+.PetsPage__likeCount {
+  position: fixed;
+  bottom: 30px;
+  right: calc(50% - 170px);
+
+  svg {
+    color: $buttonColorMain;
+    font-size: 60px;
+  }
+
+  svg[data-testid="FavoriteBorderIcon"] {
+    position: relative;
+    bottom: 2px;
+  }
+
+  span {
+    position: relative;
+    color: $buttonColorAdditional;
+    font-size: 25px;
+    bottom: 22px;
+  }
+
+  .upToTen {
+    left: 37px;
+  }
+
+  .tenAndMore {
+    left: 44px;
+  }
+}
+
+@media (max-width: 767px) {
+  .PetsPage__likeCount {
+    right: 8%;
+  }
+}

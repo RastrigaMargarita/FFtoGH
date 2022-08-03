@@ -1,0 +1,82 @@
+.container {
+  max-width: 328px;
+  margin: 0 auto;
+}
+
+.addAnimal {
+  margin-top: 24px;
+  margin-bottom: 42px;
+
+  &__title_wrap {
+    margin-top: 22px;
+    margin-bottom: 32px;
+  }
+
+  &__files_wrap {
+    margin-top: 21px;
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-column-gap: 16px;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 74px);
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+.form {
+  &__main {
+    width: 328px;
+    background: #ffffff;
+    border: 2px solid #80cfce;
+    border-radius: 30px;
+    padding: 32px 30px 26px;
+    margin-bottom: 31px;
+
+    & input,
+    & select {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__addDelFile_wrap {
+    margin-top: 32px;
+  }
+
+  &__countFile {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #f48070;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  &__inputFileHidden {
+    display: none;
+  }
+
+  &__btns_wrap {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.edit_card_wrap {
+  //display: none;
+}
+
+.edit_card {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Golos";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  max-width: 100px;
+}

@@ -1,0 +1,53 @@
+.NotFoundPet {
+    height: 95vh;
+    width: 360px;
+    margin: 0 auto;
+
+    .NotFoundPet__404 {
+        height: 221px;
+        text-align: center;
+    }
+
+    .NotFoundPet__404--text {
+        padding: 90px 0 0 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .NotFoundPet__icon {
+        position: relative;
+        height: 36vh;
+    }
+
+    .NotFoundPet__icon svg {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .NotFoundPet__buttons {
+        top: 517px;
+        height: 30vh;
+    }
+
+    .NotFoundPet__buttons--main {
+        background-color: $buttonColorMain;
+        border-radius: 30px;
+        padding: 11px 16px;
+        text-align: center;
+        margin: 0 16px;
+    }
+
+    .NotFoundPet__buttons--likes {
+        border: 2px solid $buttonColorMain;
+        border-radius: 30px;
+        padding: 11px 16px;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

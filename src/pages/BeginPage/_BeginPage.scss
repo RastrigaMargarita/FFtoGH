@@ -1,0 +1,33 @@
+.BeginPageBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 18px;
+    background-color: white;
+    width: 360px;
+  }
+
+  img {
+    max-height: 360px;
+    margin-bottom: 14px;
+  }
+
+  a {
+    margin-top: 14px;
+    :hover {
+      background-color: #f48070;
+    }
+  }
+}
+
+.BeginPage--whiteblock {
+  background-color: white;
+}
